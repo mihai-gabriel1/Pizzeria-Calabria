@@ -13,17 +13,21 @@ body {
 /* Here starts the header with the navigation bar */
 .navigation {
   background-color: #343a40;
-  padding: 24px;
+  /* padding: 24px; */
   font-size: 25px;
   display: flex;
-  gap: 30px;
+  justify-content: space-between;
   opacity: 0.7;
   font-family: "Amatic SC", sans-serif;;
-  /* margin-right: 600px; */
-  /* display: inline-block; */
-  text-align: center;
-  align-items: center;
-  justify-content: end;
+}
+
+.nav-links {
+  margin-top: 30px;
+}
+
+.logo {
+  border-radius: 90px;
+  margin-left: 10px;
 }
 
 a {
