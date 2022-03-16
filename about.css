@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* background-color: #f44336; */
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  background-color: #ffd7ba;
+  /* font-size: 25px; */
+}
+
+.aboutus {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 50px;
+}
+
+.container {
+  display: flex;
+  /* border-radius: 40px; */
+  margin-top: 30px;
+  justify-content: space-between;
+  font-size: 42px;
+  color: rgb(219, 87, 11);
+}
+
+.chef {
+  border-radius: 100px;
+  margin-right: 550px;
+  margin-top: 50px;
+}
+
+.description {
+  margin-left: 100px;
+  margin-top: 150px;
+  /* font-size: 50px; */
+}
+
+.description-pizzeria {
+  margin-left: 100px;
+  margin-top: 150px;
+  font-size: 30px;
+  color: rgb(219, 87, 11)
+}
+
+.chef-p {
+  color: white;
+}
